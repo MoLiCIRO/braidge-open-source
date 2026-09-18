@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Build / generated output
+dist/
+build/
+examples/output/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+credentials.json
+credentials.*
+secrets.json
+secrets.*
+*.secret
+
+# Keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# IDE / local OS
+.vscode/
+.idea/
+.DS_Store
